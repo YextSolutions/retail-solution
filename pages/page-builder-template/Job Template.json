@@ -92,13 +92,50 @@
               "InputType": "",
               "Sink": "link6Url",
               "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "answersExperience",
+              "SubparameterContentMapEntries": [
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "configurationLabel",
+                  "StringValue": "PRODUCTION"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "searchResultsPageUrl",
+                  "StringValue": ""
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "sdkVersion",
+                  "StringValue": "1"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "placeholderText",
+                  "StringValue": "Search..."
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "autocompletePromptHeading",
+                  "StringValue": "You can ask your brand:"
+                }
+              ]
             }
           ],
-          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.navbar {\n  \u0026-nav {\n    @include media-breakpoint-up(md) {\n      align-items: center;\n    }\n  }\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n  @include media-breakpoint-down(sm) {\n    order: 1;\n  }\n}\n\n.nav-item {\n  margin: 0 8px;\n  padding: 0;\n\n  @include media-breakpoint-down(sm) {\n    margin: 11px 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  min-width: 300px;\n}\n",
           "Js": "",
           "ListParamEntries": [],
           "ModuleId": "J9-e-Jc8uR",
-          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
+          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.navbar {\n  \u0026-nav {\n    @include media-breakpoint-up(md) {\n      align-items: center;\n    }\n  }\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n  @include media-breakpoint-down(sm) {\n    order: 1;\n  }\n}\n\n.nav-item {\n  margin: 0 8px;\n  padding: 0;\n\n  @include media-breakpoint-down(sm) {\n    margin: 11px 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  min-width: 300px;\n}\n"
         },
         {
           "ContentMapEntries": [
@@ -201,6 +238,9 @@
             {
               "ExternalEntityId": "",
               "InputType": "",
+              "SelectedField": [
+                "location"
+              ],
               "Sink": "location"
             },
             {
@@ -492,7 +532,7 @@
         "DisplayNameOverride": "",
         "Id": "J9-e-Jc8uR",
         "Module": "nav_bar",
-        "Version": 45
+        "Version": 48
       },
       {
         "DisplayNameOverride": "",

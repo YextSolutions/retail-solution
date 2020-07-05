@@ -75,11 +75,7 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_jobCity": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
-        "c_jobState": {
+        "builtin.location": {
           "nlpFilter": true,
           "textSearch": true
         },

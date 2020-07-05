@@ -17,14 +17,6 @@
       "required": false
     },
     {
-      "id": "c_jobCity",
-      "required": false
-    },
-    {
-      "id": "c_jobState",
-      "required": false
-    },
-    {
       "id": "c_primaryCTA",
       "required": false
     },
