@@ -1,0 +1,11 @@
+{
+  "$id": "Product Template",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Product Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "Product Template"
+    }
+  ]
+}

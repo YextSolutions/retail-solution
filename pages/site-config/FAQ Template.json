@@ -1,0 +1,11 @@
+{
+  "$id": "FAQ Template",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "FAQ Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "FAQ Template"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$id": "Answers",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Answers",
+  "repoConfig": {
+    "targetRepoName": "${{answers_github_repository_name}}",
+    "templateRepo": "github.com/yext-pages/answers-template-retail-solution"
+  },
+  "publishingConfig": {
+    "pinnedStagingBranchName": "refs/heads/master",
+    "pinnedProductionBranchName": "refs/heads/master",
+    "stagingCredentials": {
+      "username": "test",
+      "password": "test"
+    }
+  },
+  "features": []
+}

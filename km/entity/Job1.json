@@ -1,0 +1,21 @@
+{
+  "$id": "Job1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_department": "Customer Service",
+    "c_jobCity": "New York",
+    "c_jobState": "NY",
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
+    "yext/employmentType": "FULL_TIME",
+    "yext/hiringOrganization": "Yext",
+    "yext/jobLocation": "Loc1",
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/location": {
+      "existingLocation": "Loc1"
+    },
+    "yext/name": "Customer Service Representative"
+  },
+  "entityType": "yext/job",
+  "labels": []
+}

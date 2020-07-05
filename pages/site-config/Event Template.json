@@ -1,0 +1,11 @@
+{
+  "$id": "Event Template",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Event Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "Event Template"
+    }
+  ]
+}
