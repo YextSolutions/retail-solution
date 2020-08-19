@@ -1,5 +1,5 @@
 {
-  "$id": "Event Template",
+  "$id": "Event_Template",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
   "EntityTypeName": "event",
@@ -518,5 +518,6 @@
     },
     "Theme": "cosmo",
     "ThemeVersion": 17
-  }
+  },
+  "Name": "Event Template"
 }

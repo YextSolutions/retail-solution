@@ -1,8 +1,8 @@
 {
-  "$id": "Job Template",
+  "$id": "FAQ_Template",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
-  "EntityTypeName": "job",
+  "EntityTypeName": "faq",
   "PageSetConfig": {
     "ContentMapping": {
       "ModuleMappings": [
@@ -92,215 +92,82 @@
               "InputType": "",
               "Sink": "link6Url",
               "StringValue": "#"
+            }
+          ],
+          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "uuRbj0Ob9_",
+          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "announcementText",
+              "StringValue": "View All FAQs"
             },
             {
               "ExternalEntityId": "",
               "InputType": "",
-              "Sink": "answersExperience",
-              "SubparameterContentMapEntries": [
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "configurationLabel",
-                  "StringValue": "PRODUCTION"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "searchResultsPageUrl",
-                  "StringValue": ""
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "sdkVersion",
-                  "StringValue": "1"
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "placeholderText",
-                  "StringValue": "Search..."
-                },
-                {
-                  "ExternalEntityId": "",
-                  "InputType": "",
-                  "Sink": "autocompletePromptHeading",
-                  "StringValue": "You can ask your brand:"
-                }
-              ]
+              "Sink": "announcementUrl",
+              "StringValue": "#"
             }
           ],
-          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.navbar {\n  \u0026-nav {\n    @include media-breakpoint-up(md) {\n      align-items: center;\n    }\n  }\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n  @include media-breakpoint-down(sm) {\n    order: 1;\n  }\n}\n\n.nav-item {\n  margin: 0 8px;\n  padding: 0;\n\n  @include media-breakpoint-down(sm) {\n    margin: 11px 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  min-width: 300px;\n}\n",
+          "DefaultScss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "J9-e-Jc8uR",
-          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.navbar {\n  \u0026-nav {\n    @include media-breakpoint-up(md) {\n      align-items: center;\n    }\n  }\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n  @include media-breakpoint-down(sm) {\n    order: 1;\n  }\n}\n\n.nav-item {\n  margin: 0 8px;\n  padding: 0;\n\n  @include media-breakpoint-down(sm) {\n    margin: 11px 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  min-width: 300px;\n}\n"
+          "ModuleId": "HuvOpM8bHv",
+          "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}"
         },
         {
           "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": ""
+            },
             {
               "ExternalEntityId": "",
               "InputType": "",
               "SelectedField": [
                 "name"
               ],
-              "Sink": "headline"
+              "Sink": "questionText"
             },
             {
               "ExternalEntityId": "",
               "InputType": "",
               "SelectedField": [
-                "hiringOrganization"
+                "answer"
               ],
-              "Sink": "paragraph"
+              "Sink": "answerText"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "linkText",
+              "StringValue": "Learn More"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "linkURL",
+              "StringValue": "#"
             },
             {
               "ExternalEntityId": "",
               "InputType": "",
               "Sink": "image"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "buttonText",
-              "StringValue": "Primary CTA"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "buttonUrl"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "button2Text",
-              "StringValue": "Secondary CTA"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "button2Url"
             }
           ],
-          "DefaultScss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n",
+          "DefaultScss": "padding: 2rem 0;\n$spacer: 1rem;\n\n.left-column {\n  margin-bottom: $spacer;\n}\n\n.headline {\n  margin: 2*$spacer auto 4*$spacer;\n  text-align: center;\n}\n\n.questionText {\n  margin-bottom: $spacer;\n}\n\n.answerText {\n  margin-bottom: $spacer;\n}\n\n.linkURL {}\n\n.linkText {\n  font-size: 16px;\n  margin-bottom: 3rem;\n}\n\n.image {\n  width: 100%;\n}\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "uJA32JcOuU",
-          "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "name"
-              ],
-              "Sink": "name"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "description"
-              ],
-              "Sink": "description"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "buttonText",
-              "StringValue": "Apply Now"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "applicationUrl"
-              ],
-              "Sink": "buttonUrl"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "logo"
-              ],
-              "Sink": "image"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "locationHeading",
-              "StringValue": "Location"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "location"
-              ],
-              "Sink": "location"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "hiringOrganizationHeading",
-              "StringValue": "Hiring Organization"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "hiringOrganization"
-              ],
-              "Sink": "hiringOrganization"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "employmentTypeHeading",
-              "StringValue": "Employment Type"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "employmentType"
-              ],
-              "Sink": "employmentType"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "datePostedHeading",
-              "StringValue": "Date Posted"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "datePosted"
-              ],
-              "Sink": "datePosted"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "additionalHeading"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "additionalText"
-            }
-          ],
-          "DefaultScss": "padding: 2rem 0px;\n\n$mobile-breakpoint: 767px;\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content {\n  \u0026:not(:first-child) {\n    margin-top: 1rem;\n  }\n\n  font-size: 16px;\n\n  \u0026-heading {\n    font-weight: bold;\n    margin-bottom: .5rem;\n  }\n}\n\n.lp-param-name {\n  font-size: 32px;\n  line-height: 40px;\n  letter-spacing: 0;\n}\n\n.description {\n  margin-bottom: 1rem;\n  font-size: 16px;\n  line-height: 22.5px;\n}\n\n@media (max-width: $mobile-breakpoint) {\n  .lp-param-buttonUrl {\n    width: 100%;\n  }\n}\n",
-          "Js": "",
-          "ListParamEntries": [],
-          "ModuleId": "JJkeAuc8HU",
-          "Scss": "padding: 2rem 0px;\n\n$mobile-breakpoint: 767px;\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content {\n  \u0026:not(:first-child) {\n    margin-top: 1rem;\n  }\n\n  font-size: 16px;\n\n  \u0026-heading {\n    font-weight: bold;\n    margin-bottom: .5rem;\n  }\n}\n\n.lp-param-name {\n  font-size: 32px;\n  line-height: 40px;\n  letter-spacing: 0;\n}\n\n.description {\n  margin-bottom: 1rem;\n  font-size: 16px;\n  line-height: 22.5px;\n}\n\n@media (max-width: $mobile-breakpoint) {\n  .lp-param-buttonUrl {\n    width: 100%;\n  }\n}\n"
+          "ModuleId": "uHUTp0OTJv",
+          "Scss": "padding: 2rem 0;\n$spacer: 1rem;\n\n.left-column {\n  margin-bottom: $spacer;\n}\n\n.headline {\n  margin: 2*$spacer auto 4*$spacer;\n  text-align: center;\n}\n\n.questionText {\n  margin-bottom: $spacer;\n}\n\n.answerText {\n  margin-bottom: $spacer;\n}\n\n.linkURL {}\n\n.linkText {\n  font-size: 16px;\n  margin-bottom: 3rem;\n}\n\n.image {\n  width: 100%;\n}\n"
         },
         {
           "ContentMapEntries": [
@@ -437,7 +304,7 @@
           "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "9uk3AuW89v",
+          "ModuleId": "uJvT64TbJv",
           "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
         }
       ],
@@ -530,25 +397,25 @@
     "ModuleInstances": [
       {
         "DisplayNameOverride": "",
-        "Id": "J9-e-Jc8uR",
+        "Id": "uuRbj0Ob9_",
         "Module": "nav_bar",
-        "Version": 48
+        "Version": 45
       },
       {
         "DisplayNameOverride": "",
-        "Id": "uJA32JcOuU",
-        "Module": "centered_hero",
-        "Version": 50
+        "Id": "HuvOpM8bHv",
+        "Module": "announcement_bar_2",
+        "Version": 20
       },
       {
         "DisplayNameOverride": "",
-        "Id": "JJkeAuc8HU",
-        "Module": "job_details",
-        "Version": 5
+        "Id": "uHUTp0OTJv",
+        "Module": "individual_faq",
+        "Version": 16
       },
       {
         "DisplayNameOverride": "",
-        "Id": "9uk3AuW89v",
+        "Id": "uJvT64TbJv",
         "Module": "footer",
         "Version": 52
       }
@@ -560,5 +427,6 @@
     },
     "Theme": "cosmo",
     "ThemeVersion": 17
-  }
+  },
+  "Name": "FAQ Template"
 }

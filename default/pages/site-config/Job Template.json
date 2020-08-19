@@ -5,7 +5,7 @@
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "Job Template"
+      "feature": "Job_Template"
     }
   ]
 }

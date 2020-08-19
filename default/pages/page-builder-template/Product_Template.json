@@ -1,5 +1,5 @@
 {
-  "$id": "Product Template",
+  "$id": "Product_Template",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
   "EntityTypeName": "ce_product",
@@ -512,5 +512,6 @@
     },
     "Theme": "cosmo",
     "ThemeVersion": 17
-  }
+  },
+  "Name": "Product Template"
 }
