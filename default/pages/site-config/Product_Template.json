@@ -1,5 +1,5 @@
 {
-  "$id": "Product Template",
+  "$id": "Product_Template",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "siteName": "Product Template",
   "features": [
