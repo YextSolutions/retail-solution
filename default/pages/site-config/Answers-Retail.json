@@ -3,7 +3,7 @@
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "siteName": "Answers - Retail",
   "repoConfig": {
-    "targetRepoName": "basic-template-answers-site-${{businessId}}.com",
+    "targetRepoName": "retail-template-answers-site-${{businessId}}.com",
     "templateRepo": "github.com/yext-pages/answers-template-retail-solution"
   },
   "publishingConfig": {
