@@ -4,28 +4,27 @@
   "content": {
     "c_activeInAnswers": true,
     "c_photo": {
-      "image": {
-        "height": 1112,
-        "thumbnails": [
-          {
-            "height": 732,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/619x732.png",
-            "width": 619
-          },
-          {
-            "height": 450,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/380x450.png",
-            "width": 380
-          },
-          {
-            "height": 231,
-            "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/196x231.png",
-            "width": 196
-          }
-        ],
-        "url": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
-        "width": 940
-      }
+      "height": 1112,
+      "sourceUrl": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
+      "thumbnails": [
+        {
+          "height": 732,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/619x732.png",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/380x450.png",
+          "width": 380
+        },
+        {
+          "height": 231,
+          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/196x231.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
+      "width": 940
     },
     "c_price": "15",
     "c_primaryCTA": {
