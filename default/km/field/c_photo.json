@@ -1,7 +1,6 @@
 {
   "$id": "c_photo",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "description": "",
   "displayName": "Photo",
   "description": "Stores the thumbnail image for Answers",
   "group": "NONE",
