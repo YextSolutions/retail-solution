@@ -50,10 +50,6 @@
       "required": false
     },
     {
-      "id": "yext/photoGallery",
-      "required": false
-    },
-    {
       "id": "yext/labels",
       "required": false
     },
