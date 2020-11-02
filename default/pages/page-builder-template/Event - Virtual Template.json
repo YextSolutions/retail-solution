@@ -1,7 +1,8 @@
 {
-  "$id": "Event_Template",
+  "$id": "subsector-fiction-straggler-c8247",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
+  "Name": "Event Template - Virtual",
   "EntityTypeName": "event",
   "PageSetConfig": {
     "ContentMapping": {
@@ -92,21 +93,59 @@
               "InputType": "",
               "Sink": "link6Url",
               "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "answersExperience",
+              "StringValue": "answers",
+              "SubparameterContentMapEntries": [
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "CONSTANT",
+                  "Sink": "configurationLabel",
+                  "StringValue": "STAGING"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "searchResultsPageUrl",
+                  "StringValue": " "
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "sdkVersion",
+                  "StringValue": "1"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "CONSTANT",
+                  "Sink": "placeholderText",
+                  "StringValue": "Search for Events..."
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "CONSTANT",
+                  "Sink": "autocompletePromptHeading",
+                  "StringValue": "You can ask us:"
+                }
+              ]
             }
           ],
-          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "DefaultScss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "HJyFpHWO9U",
-          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
+          "ModuleId": "HJCJ8KzMEv",
+          "Scss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n"
         },
         {
           "ContentMapEntries": [
             {
               "ExternalEntityId": "",
-              "InputType": "",
+              "InputType": "CONSTANT",
               "Sink": "announcementText",
-              "StringValue": "Announcement Bar Text"
+              "StringValue": "View All Events"
             },
             {
               "ExternalEntityId": "",
@@ -118,7 +157,7 @@
           "DefaultScss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "H9lWp978uU",
+          "ModuleId": "9urHT5r4IR",
           "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}"
         },
         {
@@ -170,89 +209,8 @@
           "DefaultScss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "JJB7p97buU",
-          "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n                margin-bottom: 1rem;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "name"
-              ],
-              "Sink": "headline"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "dateAndTimeColumnHeader",
-              "StringValue": "Date and Time"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "time"
-              ],
-              "Sink": "dateAndTime"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "addressColumnHeader",
-              "StringValue": "Location"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "venueName"
-              ],
-              "Sink": "addressName"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "address"
-              ],
-              "Sink": "address"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "description"
-              ],
-              "Sink": "bodyText"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "ctaText",
-              "StringValue": "Buy Tickets"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "Sink": "ctaUrl",
-              "StringValue": "#"
-            },
-            {
-              "ExternalEntityId": "",
-              "InputType": "",
-              "SelectedField": [
-                "yextDisplayCoordinate"
-              ],
-              "Sink": "coordinates"
-            }
-          ],
-          "DefaultScss": "padding: 2rem 0px;\n\n.cta-btn {\n    margin-bottom: 20px;\n}\n\n.body-text {\n  margin-bottom: 1rem;\n}\n",
-          "Js": "",
-          "ListParamEntries": [],
-          "ModuleId": "HHlcpHFOJv",
-          "Scss": "padding: 2rem 0px;\n\n.cta-btn {\n    margin-bottom: 20px;\n}\n\n.body-text {\n  margin-bottom: 1rem;\n  margin-top: 1rem;\n}\n"
+          "ModuleId": "9uDJTKrMV_",
+          "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
         },
         {
           "ContentMapEntries": [
@@ -389,8 +347,151 @@
           "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
           "Js": "",
           "ListParamEntries": [],
-          "ModuleId": "uuyFjH7Tuv",
+          "ModuleId": "JuCuThD0V_",
           "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": "Past Events"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "IntValue": 10,
+              "Sink": "resultsPerPage"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "savedFilterId",
+              "StringValue": " "
+            }
+          ],
+          "DefaultScss": "padding: 2rem 0;\n\n$xl-breakpoint: 1200px;\n\n.container {\n    text-align: center;\n}\n\n.headline {\n}\n\n.event-name {\n    font-weight: bold;\n}\n\n.btn {\n    font-size: 18px;\n}\n\n.details-btn {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n}\n\n@media (max-width: $xl-breakpoint) {\n    .btn {\n        font-size: 16px;\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "Julq7KzMVU",
+          "Scss": "padding: 2rem 0;\n\n$xl-breakpoint: 1200px;\n\n.container {\n    text-align: center;\n}\n\n.headline {\n}\n\n.event-name {\n    font-weight: bold;\n}\n\n.btn {\n    font-size: 18px;\n}\n\n.details-btn {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n}\n\n@media (max-width: $xl-breakpoint) {\n    .btn {\n        font-size: 16px;\n    }\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": "Upcoming Events"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "IntValue": 10,
+              "Sink": "resultsPerPage"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "savedFilterId",
+              "StringValue": " "
+            }
+          ],
+          "DefaultScss": "padding: 2rem 0;\n\n$xl-breakpoint: 1200px;\n\n.container {\n    text-align: center;\n}\n\n.headline {\n}\n\n.event-name {\n    font-weight: bold;\n}\n\n.btn {\n    font-size: 18px;\n}\n\n.details-btn {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n}\n\n@media (max-width: $xl-breakpoint) {\n    .btn {\n        font-size: 16px;\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "9H7yCKDMVv",
+          "Scss": "padding: 2rem 0;\n\n$xl-breakpoint: 1200px;\n\n.container {\n    text-align: center;\n}\n\n.headline {\n}\n\n.event-name {\n    font-weight: bold;\n}\n\n.btn {\n    font-size: 18px;\n}\n\n.details-btn {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n}\n\n@media (max-width: $xl-breakpoint) {\n    .btn {\n        font-size: 16px;\n    }\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "eventName"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "description"
+              ],
+              "Sink": "eventDescription"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "time"
+              ],
+              "Sink": "eventDateTime"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "ticketAvailability"
+              ],
+              "Sink": "buyTicketsAvailability"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "buyTicketsCtaText",
+              "StringValue": "Register Here"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "ticketUrl"
+              ],
+              "Sink": "buyTicketsCtaUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "venueName",
+              "StringValue": "This event will be held virtually. Please register to join us."
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "FIELD",
+              "SelectedField": [
+                "address"
+              ],
+              "Sink": "venueAddress"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "otherCtaText"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "otherCtaUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "image"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "backgroundColor"
+            }
+          ],
+          "DefaultScss": ".btn {\n  @media (min-width: 768px) {\n    \u0026:not(:last-child) {\n      margin-right: 0.25rem;\n    }\n  }\n  @media (max-width: 768px) {\n    display: block;\n    margin-bottom: 0.25rem;\n  }\n}\n\n.event-name {}\n\n.description {\n  margin-bottom: 1rem;\n}\n\n.event-date-time {}\n\n.venue-name {}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "9uzbTESuUU",
+          "Scss": ".btn {\n  @media (min-width: 768px) {\n    \u0026:not(:last-child) {\n      margin-right: 0.25rem;\n    }\n  }\n  @media (max-width: 768px) {\n    display: block;\n    margin-bottom: 0.25rem;\n  }\n}\n\n.event-name {}\n\n.description {\n  margin-bottom: 1rem;\n}\n\n.event-date-time {}\n\n.venue-name {}\n"
         }
       ],
       "ThemeMapping": {
@@ -482,33 +583,45 @@
     "ModuleInstances": [
       {
         "DisplayNameOverride": "",
-        "Id": "HJyFpHWO9U",
+        "Id": "HJCJ8KzMEv",
         "Module": "nav_bar",
-        "Version": 45
+        "Version": 53
       },
       {
         "DisplayNameOverride": "",
-        "Id": "H9lWp978uU",
+        "Id": "9urHT5r4IR",
         "Module": "announcement_bar_2",
         "Version": 20
       },
       {
         "DisplayNameOverride": "",
-        "Id": "JJB7p97buU",
+        "Id": "9uDJTKrMV_",
         "Module": "centered_hero",
         "Version": 50
       },
       {
         "DisplayNameOverride": "",
-        "Id": "HHlcpHFOJv",
-        "Module": "event_details_with_map",
-        "Version": 42
+        "Id": "9uzbTESuUU",
+        "Module": "event_details",
+        "Version": 48
       },
       {
         "DisplayNameOverride": "",
-        "Id": "uuyFjH7Tuv",
+        "Id": "9H7yCKDMVv",
+        "Module": "upcoming_events",
+        "Version": 63
+      },
+      {
+        "DisplayNameOverride": "Past Events",
+        "Id": "Julq7KzMVU",
+        "Module": "upcoming_events",
+        "Version": 63
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JuCuThD0V_",
         "Module": "footer",
-        "Version": 52
+        "Version": 53
       }
     ],
     "Path": "",
@@ -518,6 +631,5 @@
     },
     "Theme": "cosmo",
     "ThemeVersion": 17
-  },
-  "Name": "Event Template"
+  }
 }

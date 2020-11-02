@@ -1,0 +1,15 @@
+{
+  "$id": "dropout-left-throbbing-6db89",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Event Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "subsector-fiction-straggler-c8247"
+    },
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "cryptic-aching-net-5fad9"
+    }
+  ]
+}

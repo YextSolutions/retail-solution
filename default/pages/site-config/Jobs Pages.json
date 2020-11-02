@@ -1,0 +1,15 @@
+{
+  "$id": "figment-aversion-constant-a76c6",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Jobs Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "rotunda-award-customer-302f4"
+    },
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "unholy-region-doormat-4f39b"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "$id": "Job_Template",
+  "$id": "scallion-product-fedora-84b57",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "Job Template",
+  "siteName": "Product Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "Job_Template"
+      "feature": "atrocious-dicing-upheaval-5130e"
     }
   ]
 }

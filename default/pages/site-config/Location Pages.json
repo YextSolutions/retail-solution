@@ -1,11 +1,11 @@
 {
-  "$id": "Event_Template",
+  "$id": "reoccur-riverboat-sly-580ca",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "siteName": "Event Template",
+  "siteName": "Location Template",
   "features": [
     {
       "featureType": "SELF_SERVE_PAGE_SET",
-      "feature": "Event_Template"
+      "feature": "bulge-oink-battalion-29ca9"
     }
   ]
 }
