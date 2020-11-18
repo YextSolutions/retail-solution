@@ -32,7 +32,9 @@
       "link": "https://www.yext.com",
       "linkType": "URL"
     },
-    "c_productCategory": "Mobile Phone",
+    "c_productCategory": [
+      "Mobile Phone"
+    ],
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "yext/landingPageUrl": "https://www.yext.com",
     "yext/name": "Product"
