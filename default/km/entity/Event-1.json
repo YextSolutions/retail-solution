@@ -2,7 +2,7 @@
   "$id": "Event-1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "yext/address": {
       "city": "New York",
       "countryCode": "US",

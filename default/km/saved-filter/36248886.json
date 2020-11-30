@@ -12,7 +12,12 @@
       },
       {
         "fieldId": "c_activeInAnswers",
-        "searchBool": "TRUE"
+        "filterOption": {
+          "choice": [
+            "NO"
+          ],
+          "type": "IS_NOT"
+        }
       }
     ],
     "entityType": [
