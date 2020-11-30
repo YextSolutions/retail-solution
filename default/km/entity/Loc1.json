@@ -2,6 +2,7 @@
   "$id": "Loc1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
+    "c_activeInAnswers": "YES",
     "yext/address": {
       "city": "New York",
       "countryCode": "US",
