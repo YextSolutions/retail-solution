@@ -3,42 +3,41 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
-    "c_photo": {
-      "height": 1112,
-      "sourceUrl": "http://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
-      "thumbnails": [
-        {
-          "height": 732,
-          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/619x732.png",
-          "width": 619
-        },
-        {
-          "height": 450,
-          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/380x450.png",
-          "width": 380
-        },
-        {
-          "height": 231,
-          "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/196x231.png",
-          "width": 196
-        }
-      ],
-      "url": "https://a.mktgcdn.com/p/qwW3rhuJA41v9mkTxLj0gzlmeODKmKW0crBQt-VJMV4/940x1112.png",
-      "width": 940
-    },
-    "c_price": "15",
     "c_primaryCTA": {
-      "label": "Visit Page",
+      "label": "Buy Now",
       "link": "https://www.yext.com",
       "linkType": "URL"
     },
     "c_productCategory": [
-      "Mobile Phone"
+      "CATEGORY_A",
+      "CATEGORY_B"
     ],
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/color": "Gray",
     "yext/landingPageUrl": "https://www.yext.com",
-    "yext/name": "Product"
+    "yext/name": "Product 1",
+    "yext/photoGallery": [
+      {
+        "image": {
+          "height": 244,
+          "sourceUrl": "https://a.mktgcdn.com/p/WiiSMKhpCfmYY7UoWHeHp8d8qp0rUGvDZ3VLslTLVX8/196x244.jpg",
+          "thumbnails": [
+            {
+              "height": 244,
+              "url": "http://a.mktgcdn.com/p-sandbox/h817f6rK98VSI7YTDrInHEZI3zew8iOwz-mr1XE_8U8/196x244.jpg",
+              "width": 196
+            }
+          ],
+          "url": "http://a.mktgcdn.com/p-sandbox/h817f6rK98VSI7YTDrInHEZI3zew8iOwz-mr1XE_8U8/196x244.jpg",
+          "width": 196
+        }
+      }
+    ],
+    "yext/price": {
+      "currencyCode": "USD",
+      "value": "150"
+    },
+    "yext/richTextDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
-  "entityType": "ce_product",
+  "entityType": "yext/product",
   "labels": []
 }

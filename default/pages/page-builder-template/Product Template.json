@@ -3,7 +3,7 @@
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
   "Name": "Product Template",
-  "EntityTypeName": "ce_product",
+  "EntityTypeName": "yext/product",
   "PageSetConfig": {
     "ContentMapping": {
       "ModuleMappings": [
