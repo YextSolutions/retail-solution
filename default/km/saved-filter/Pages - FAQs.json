@@ -21,6 +21,14 @@
         ],
         "type": "IS"
       }
+    ],
+    "fieldsWithData": [
+      {
+        "fieldId": [
+          "yext/answer"
+        ],
+        "type": "ANY"
+      }
     ]
   }
 }
