@@ -1,5 +1,5 @@
 {
-  "$id": "1000",
+  "$id": "c_events-cta-clicks",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
   "conversionName": "Events - CTA Clicks",
   "conversionType": "SIGN_UP",
