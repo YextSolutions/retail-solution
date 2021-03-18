@@ -6,23 +6,25 @@
   "countryRestrictions": [],
   "verticals": {
     "events": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "address",
+            "time"
+          ]
+        }
+      },
       "entityTypes": [
         "event"
       ],
       "name": "Events",
       "savedSearchId": "36248886",
       "searchableFields": {
-        "address": {
-          "directAnswer": true
-        },
         "builtin.entityType": {
           "nlpFilter": true
         },
         "name": {
           "textSearch": true
-        },
-        "time": {
-          "directAnswer": true
         },
         "time.start": {
           "sortable": true
@@ -74,8 +76,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "employmentType": {
           "textSearch": true
@@ -102,6 +103,13 @@
       "useSynonyms": "ALL_SYNONYMS"
     },
     "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ]
+        }
+      },
       "entityTypes": [
         "location"
       ],
@@ -112,8 +120,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "mainPhone": {
           "directAnswer": true
@@ -175,13 +182,36 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "What is Yext?",
       "Products",
-      "Locations near me"
-    ]
+      "Locations near me",
+      "upcoming virtual events",
+      "open jobs near me"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "open jobs near me"
+      ],
+      "events": [
+        "events in [[address.city]]",
+        "upcoming virtual events"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
@@ -204,5 +234,6 @@
       ]
     ]
   },
-  "localizations": {}
+  "localizations": {},
+  "additionalSearchablePlaces": []
 }
