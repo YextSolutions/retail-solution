@@ -182,6 +182,7 @@
   "querySuggestions": {
     "popularQueriesBlacklistedTerms": [],
     "universalPrompts": [
+      "FAQs",
       "Products",
       "Locations near me",
       "upcoming virtual events",
