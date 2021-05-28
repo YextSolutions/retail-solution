@@ -188,8 +188,8 @@
       "FAQs",
       "Products",
       "Locations near me",
-      "upcoming virtual events",
-      "open jobs near me"
+      "Upcoming virtual events",
+      "Open jobs near me"
     ],
     "verticalPrompts": {
       "faqs": [
@@ -205,11 +205,11 @@
       ],
       "jobs": [
         "[[name]]",
-        "open jobs near me"
+        "Open jobs near me"
       ],
       "events": [
-        "events in [[address.city]]",
-        "upcoming virtual events"
+        "Events in [[address.city]]",
+        "Upcoming virtual events"
       ]
     }
   },
