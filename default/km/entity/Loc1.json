@@ -2,12 +2,11 @@
   "$id": "Loc1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": "YES",
     "yext/address": {
       "city": "New York",
       "countryCode": "US",
-      "line1": "1 Madison Ave",
-      "postalCode": "10010",
+      "line1": "61 9th Ave",
+      "postalCode": "10011",
       "region": "NY"
     },
     "yext/addressHidden": false,

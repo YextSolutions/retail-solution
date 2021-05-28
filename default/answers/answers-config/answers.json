@@ -78,6 +78,9 @@
         "builtin.location": {
           "nlpFilter": true
         },
+        "c_department": {
+          "textSearch": true
+        },
         "employmentType": {
           "textSearch": true
         },
