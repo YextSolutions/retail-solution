@@ -14,7 +14,7 @@
         "clickType": "CALL_TO_ACTION",
         "entityFilter": {
           "entityTypeIn": [
-            "yext/job"
+            "job"
           ]
         },
         "media": [

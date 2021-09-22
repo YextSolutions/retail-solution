@@ -14,7 +14,7 @@
         "clickType": "TITLE",
         "entityFilter": {
           "entityTypeIn": [
-            "yext/job"
+            "job"
           ]
         },
         "media": [

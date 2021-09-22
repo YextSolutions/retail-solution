@@ -3,29 +3,29 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
-    "yext/address": {
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
-    "yext/linkedLocation": "Loc1",
-    "yext/name": "Event 1",
-    "yext/ticketUrl": "http://www.yext.com",
-    "yext/time": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
+    "linkedLocation": "Loc1",
+    "name": "Event 1",
+    "ticketUrl": "http://www.yext.com",
+    "time": {
       "end": "2023-07-06T17:00",
       "start": "2023-07-06T09:00"
     },
-    "yext/timezone": "America/New_York",
-    "yext/venueName": "Yext",
-    "yext/websiteUrl": {
+    "timezone": "America/New_York",
+    "venueName": "Yext",
+    "websiteUrl": {
       "displayUrl": "http://www.yext.com",
       "preferDisplayUrl": false,
       "url": "http://www.yext.com"
     }
   },
-  "entityType": "yext/event",
+  "entityType": "event",
   "labels": []
 }

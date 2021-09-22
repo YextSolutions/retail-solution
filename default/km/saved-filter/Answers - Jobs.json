@@ -17,7 +17,7 @@
     "entityType": [
       {
         "entityTypeId": [
-          "yext/job"
+          "job"
         ],
         "type": "IS"
       }

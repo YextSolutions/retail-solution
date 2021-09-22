@@ -8,7 +8,7 @@
         "dateTimePastFuture": {
           "type": "FUTURE"
         },
-        "fieldId": "yext/time.end"
+        "fieldId": "time.end"
       },
       {
         "fieldId": "c_activeInAnswers",
@@ -23,7 +23,7 @@
     "entityType": [
       {
         "entityTypeId": [
-          "yext/event"
+          "event"
         ],
         "type": "IS"
       }
