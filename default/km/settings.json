@@ -1,4 +1,31 @@
 {
   "$schema": "https://schema.yext.com/config/km/settings/v1",
-  "primaryEntityType": "location"
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "event",
+      "defaultFieldEligibilityGroup": "event.default",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "defaultFieldEligibilityGroup": "faq.default",
+      "disabled": false
+    },
+    {
+      "entityType": "job",
+      "defaultFieldEligibilityGroup": "job.default",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "defaultFieldEligibilityGroup": "location.default",
+      "disabled": false
+    },
+    {
+      "entityType": "product",
+      "defaultFieldEligibilityGroup": "product.default",
+      "disabled": false
+    }
+  ]
 }
