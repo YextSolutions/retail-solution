@@ -1,12 +1,12 @@
 {
-  "$id": "product.default",
+  "$id": "retailSolution_job",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Product-default",
-  "entityType": "product",
+  "name": "retailSolution-Job",
+  "entityType": "job",
   "fields": [
     "c_activeInAnswers",
+    "c_department",
     "c_primaryCTA",
-    "c_productCategory",
     "c_secondaryCTA"
   ]
 }

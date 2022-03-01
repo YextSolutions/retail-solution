@@ -1,9 +1,10 @@
 {
-  "$id": "location.default",
+  "$id": "retailSolution_faq",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Location-default",
-  "entityType": "location",
+  "name": "retailSolution_FAQ",
+  "entityType": "faq",
   "fields": [
+    "c_activeInAnswers",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

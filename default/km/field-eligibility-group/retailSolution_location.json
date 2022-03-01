@@ -1,11 +1,9 @@
 {
-  "$id": "job.default",
+  "$id": "retailSolution_location",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Job-default",
-  "entityType": "job",
+  "name": "retailSolution-Location",
+  "entityType": "location",
   "fields": [
-    "c_activeInAnswers",
-    "c_department",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

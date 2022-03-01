@@ -1,8 +1,8 @@
 {
-  "$id": "faq.default",
+  "$id": "retailSolution_event",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "FAQ-default",
-  "entityType": "faq",
+  "name": "retailSolution-Event",
+  "entityType": "event",
   "fields": [
     "c_activeInAnswers",
     "c_primaryCTA",
