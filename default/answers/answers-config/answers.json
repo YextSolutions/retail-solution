@@ -11,7 +11,8 @@
           "eligibleFields": [
             "address",
             "time"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -23,21 +24,30 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "keywords": {
+          "textSearch": true
+        },
         "name": {
           "textSearch": true
         },
         "time.start": {
           "sortable": true
-        },
-        "keywords": {
-          "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "events",
+        "events near me",
+        "party"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [
         {
+          "buckets": [],
           "type": "RELEVANCE"
         },
         {
+          "buckets": [],
           "direction": "ASC",
           "field": "time.start",
           "type": "FIELD"
@@ -55,13 +65,18 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
-          "semanticTextSearch": true
-        },
         "keywords": {
           "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "question"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -87,13 +102,20 @@
         "hiringOrganization": {
           "textSearch": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "jobs",
+        "open jobs",
+        "careers"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -101,6 +123,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -110,7 +133,8 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
@@ -125,13 +149,20 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "stores near me",
+        "stores",
+        "locations"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -178,39 +209,15 @@
           "nlpFilter": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "products",
+        "sale",
+        "items"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "FAQs",
-      "Products",
-      "Locations near me",
-      "Upcoming virtual events",
-      "Open jobs near me"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
-      "locations": [
-        "Locations near [[address.city]]",
-        "Locations near [[address.region]]",
-        "Locations near me"
-      ],
-      "products": [
-        "[[name]]"
-      ],
-      "jobs": [
-        "[[name]]",
-        "Open jobs near me"
-      ],
-      "events": [
-        "Events in [[address.city]]",
-        "Upcoming virtual events"
-      ]
     }
   },
   "synonyms": {
@@ -235,5 +242,38 @@
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "FAQs",
+      "Products",
+      "Locations near me",
+      "Upcoming virtual events",
+      "Open jobs near me"
+    ],
+    "verticalPrompts": {
+      "events": [
+        "Events in [[address.city]]",
+        "Upcoming virtual events"
+      ],
+      "faqs": [
+        "[[name]]"
+      ],
+      "jobs": [
+        "[[name]]",
+        "Open jobs near me"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "products": [
+        "[[name]]"
+      ]
+    }
+  }
 }
