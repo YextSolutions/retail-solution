@@ -1,0 +1,23 @@
+{
+    "$id": "Answers-Retail",
+    "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+    "siteName": "Answers - Retail",
+    "repoConfig": "smolder-commuting-override-f9211",
+    "siteSettings": {
+      "autoDeploy": true,
+      "autoStage": true,
+      "autoPublish": false,
+      "pullRequestsEnabled": false,
+      "stagingCredentials": {
+        "password": "test",
+        "username": "test"
+      }
+    },
+    "branches": [
+      {
+        "name": "master",
+        "envVars": [],
+        "isProductionBranch": true
+      }
+    ]
+}
