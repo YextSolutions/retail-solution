@@ -1,5 +1,5 @@
 {
-  "$id": "eventRow",
+  "$id": "retail_eventRow",
   "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
   "displayName": {
     "default": "Event",
