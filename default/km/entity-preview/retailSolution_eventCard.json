@@ -1,5 +1,5 @@
 {
-  "$id": "retail_eventCard",
+  "$id": "retailSolution_eventCard",
   "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
   "displayName": {
     "default": "Event",
