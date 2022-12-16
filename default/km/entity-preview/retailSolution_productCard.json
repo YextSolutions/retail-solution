@@ -1,5 +1,5 @@
 {
-  "$id": "retail_productCard",
+  "$id": "retailSolution_productCard",
   "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
   "displayName": {
     "default": "Product",
