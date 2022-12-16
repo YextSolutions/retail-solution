@@ -1,5 +1,5 @@
 {
-  "$id": "jobRow",
+  "$id": "retail_jobRow",
   "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
   "displayName": {
     "default": "Job",
